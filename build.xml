@@ -146,6 +146,8 @@ Valid values are:
   <target name="test">
     <delete dir="${output.dir}"/>
     <mkdir dir="${output.dir}"/>
+    <touch file="${output.dir}/results.txt" />
+    <touch file="${output.dir}/output.txt" />
     <antcall target="run-tests-${test.framework}" />
   </target>
 
