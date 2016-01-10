@@ -1,0 +1,34 @@
+{
+    "name":"whispir-sdk-coldfusion",
+    "version":"1.0.0",
+    "author":"CF Mitrah from MitrahSoft",
+    "homepage":"https://bitbucket.org/whispirpartners/whispir-sdk-coldfusion",
+    "documentation":"https://bitbucket.org/whispirpartners/whispir-sdk-coldfusion/overview",
+    "repository":{
+        "type":"GIT",
+        "URL":"https://bitbucket.org/whispirpartners/whispir-sdk-coldfusion.git"
+    },
+    "bugs":"https://bitbucket.org/whispirpartners/whispir-sdk-coldfusion/issues",
+    "slug":"",
+    "shortDescription":"Whispir API ColdFusion SDK",
+    "description":"Whispir API ColdFusion SDK",
+    "type":"project",
+    "projectURL":"https://bitbucket.org/whispirpartners/whispir-sdk-coldfusion",
+    "license":[
+        {
+            "type":""
+        }
+    ],
+    "dependencies":{
+    },
+    "devDependencies":{
+        "testbox":"2.2.0"
+    },
+    "ignore":[
+        "LICENSE",
+        "*.md"
+    ],
+    "testbox":{
+        "runner":""
+    }
+}
