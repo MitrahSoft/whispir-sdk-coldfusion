@@ -59,10 +59,10 @@ component extends="testbox.system.BaseSpec" {
 				*/
 				/* init() */
 				it('Should be created with passed in username, password, apiKey', function () {
-					expect(whispirClient.getUsername()).toBe('');
+					expect(whispirClient.getUsername()).toBe(123);
 					expect(whispirClient.getPassword()).toBe('');
 					expect(whispirClient.getApiKey()).toBe('');
-					expect(whispirClient.getApiUrl()).toBe('https://api.whispir.com');
+					expect(whispirClient.getApiUrl()).toBe(0);
 				}, 'Method/init');
 
 				/* Create() */
@@ -85,7 +85,7 @@ component extends="testbox.system.BaseSpec" {
 				
 					var workSpacesArr = whispirClient.getWorkSpaces();
 					expect( workSpacesArr ).toBeTypeOf( "array" );
-					expect( arraylen(workSpacesArr) ).toBe( 0 );
+					expect( arraylena(workSpacesArr) ).toBe( 0 );
 
 					// Calling same function to get the second mocked result
 					var workSpacesArr = whispirClient.getWorkSpaces();
