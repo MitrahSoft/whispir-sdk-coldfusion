@@ -140,7 +140,7 @@ Valid values are:
     <fail if="mxunit.failed" message="At least one test failure!"/>
 
     <property file="${output.dir}/testbox.properties" />
-    <fail if="testbox.failed" message="At least one test failure!" />
+    <fail if="test.failed" message="At least one test failure!" />
   </target>
 
   <target name="test">
