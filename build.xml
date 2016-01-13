@@ -155,7 +155,6 @@ Valid values are:
     <get dest="${output.dir}/results.txt" src="http://${server.name}:${server.port}/${test.project}/tests/ci/testbox-runner.cfm?directory=${testbox.directory}&amp;reporter=text&amp;reportPath=${basedir}/${output.dir}&amp;propertiesSummary=true&amp;propertiesFilename=testbox.properties" verbose="true" />
     <concat><path path="${output.dir}/testbox.properties" /></concat>
     <concat><path path="${output.dir}/results.txt" /></concat>
-    <concat><path path="${output.dir}/output.txt" /></concat>
   </target>
 
   <target description="Make output directories and run the MXUnit task" name="run-tests-mxunit">
