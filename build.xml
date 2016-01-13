@@ -139,7 +139,7 @@ Valid values are:
   <target name="test-ci" depends="start-server,test,stop-server">
     <fail if="mxunit.failed" message="At least one test failure!"/>
 
-    <property file="${output.dir}testbox.properties" />
+    <property file="${output.dir}/testbox.properties" />
     <fail if="testbox.failed" message="At least one test failure!" />
   </target>
 
